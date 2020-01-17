@@ -4,7 +4,7 @@ console.log("connected");
 // var random_color = colors[Math.floor(Math.random() * colors.length)];
 // document.getElementById('welcome-section').style.color = random_color;
 
-
+ 
 // let textShadowProp = {
 // 	offsetX: '3px',
 // 	offsetY: '3px',
