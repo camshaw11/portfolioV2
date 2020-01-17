@@ -1,2 +1,2 @@
 # portfolioV2
-Updated portfolio
+Updating portfolio, work in progress
