@@ -1,0 +1,290 @@
+  
+ :root {
+ 	--red: #ED1C24;
+ 	--orange: #E8592D;
+ 	--dark-color: #102321;
+ 	--main-font: 'Share', cursive;
+ }
+
+html {
+	/*scroll-behavior: smooth;*/
+}
+
+
+ body {
+  	background-image: url("img/JUICEBACK_2000x.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#welcome-section {
+	/*margin-top: 50px;*/
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#projects {
+	/*margin-top: 50px;*/
+	/*height: 100vh;*/
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+}
+
+
+h1 {
+	font-family: var(--main-font);
+	font-size: 12em;
+	text-align: center;
+	color: var(--orange);
+	/*text-shadow: 0px 6px 0px rgba(213, 213, 213, 0.64);*/
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #f1f1f1;*/
+
+}
+
+li {
+	float: left;
+
+}
+
+li a {
+	text-transform: uppercase;
+	font-family: var(--main-font);
+	font-size: 1em;
+	display: block;
+	/*color: var(--orange);*/
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: letter-spacing 2s;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  /*background-color: #555;*/
+  color: white;
+  letter-spacing: 10px;
+}
+
+.nav-title > a {
+	color: var(--orange);
+	text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.7);
+}
+
+.project-tile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*float: left;*/
+	/*width: 60%;*/
+	height: 100vh;
+	/*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);*/
+}
+
+.title { 
+	/*text-align: center;*/
+	font-family: var(--main-font);
+	color: var(--orange);
+	text-shadow: -5px 3px 0 rgba(0, 0, 0, 0.7);
+	/*margin: 30px;*/
+	padding: 10px;
+}
+
+/*.title:hover {
+	letter-spacing: 1px;
+}*/
+
+a {
+	text-decoration: none;
+}
+
+.live-site {
+	color: white;
+	opacity: 0.8;
+}
+
+#live-vinyl:hover {
+	color: var(--dark-color);
+}
+
+.live-site:hover {
+	color: var(--orange);
+}
+
+h3 {
+	font-size: 5em;
+}
+
+/*.title-long {
+	font-size: 4.5em;
+}*/
+
+/*#bottomNav {
+	position: fixed;
+	bottom: 0;
+	margin: 5px;
+}*/
+
+.contents {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+#projectOne, #projectThree, #projectFive {
+	background-color: var(--orange);
+	/*background: rgb(229,85,48);*/
+    /*background: linear-gradient(180deg, rgba(229,85,48,1) 0%, rgba(143,32,9,1) 100%);*/
+}
+
+#projectTwo, #projectFour {
+	background-color: var(--dark-color);
+}
+
+#about {
+	background-color: var(--dark-color);
+}
+
+.img-box {
+	display: inline-block;
+}
+
+.project-images {
+	/*max-width: 50%;*/
+	height: 50%;
+	margin: 10px;
+	opacity: 0.8;
+}
+
+.text-box {
+	/*height: 50%;*/
+	width: 50vw;
+	padding: 10px;
+	/*margin: 20px;*/
+	overflow: hidden;
+}
+
+#vinyl-box {
+	margin-left: 30px;
+}
+
+#stash-box {
+	margin-left: 30px;
+}
+
+#about-text-box {
+	width: 60vw;
+}
+
+.not-orange {
+	background-color: var(--dark-color);
+}
+
+
+.project-information {
+	/*width: 20vw;*/
+	/*margin: 20px;*/
+	font-family: var(--main-font);
+	color: var(--dark-color);
+	font-size: 1em;
+	padding: 10px;
+}
+
+.grey-bg {
+	color: var(--orange);
+	/*background-color: var(--dark-color);*/
+}
+
+#contact {
+	font-family: var(--main-font);
+	color: var(--orange);
+	font-size: 1em;
+	padding: 10px;
+}
+
+
+@media only screen and (max-width: 769px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width: 869px) {
+  #stash-one {
+    display: none;
+  }
+  .project-images {
+  	height: 40%;
+  }
+  h3 {
+  	font-size: 3em;
+  }
+  #trivul_desktop {
+  	height: 25%;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+	h3 {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.project-images {
+		display: none;
+	}
+	.text-box {
+		width: 80vw;
+	}
+	#about-text-box {
+		width: 80vw;
+	}
+	li a:hover {
+  		/*background-color: #555;*/
+  		/*color: white;*/
+  		letter-spacing: 1px;
+	}
+}
+
+/*
+#circle {
+	width: 40px;
+	height: 40px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	border: 15px solid #333;
+}*/
