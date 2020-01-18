@@ -222,9 +222,9 @@ h3 {
 	/*background-color: var(--dark-color);*/
 }
 
-#contact {
+.contact {
 	font-family: var(--main-font);
-	color: var(--orange);
+	color: white;
 	font-size: 1em;
 	padding: 10px;
 }
