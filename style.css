@@ -3,6 +3,7 @@
 	--red: #ED1C24;
 	--orange: #E8592D;
 	--dark-color: #102321;
+	--faded-white: #d1c7c7;
 	--main-font: 'Share', cursive;
  }
 
@@ -185,7 +186,7 @@ h3 {
 
 .text-box {
 	/*height: 50%;*/
-	width: 50vw;
+	width: 35vw;
 	padding: 10px;
 	/*margin: 20px;*/
 	overflow: hidden;
@@ -200,7 +201,7 @@ h3 {
 }
 
 #about-text-box {
-	width: 60vw;
+	/*width: 60vw;*/
 }
 
 .not-orange {
@@ -218,15 +219,30 @@ h3 {
 }
 
 .grey-bg {
-	color: var(--orange);
+	color: var(--faded-white);
 	/*background-color: var(--dark-color);*/
 }
 
 .contact {
 	font-family: var(--main-font);
-	color: white;
+	color: var(--faded-white);
 	font-size: 1em;
 	padding: 10px;
+}
+
+#contact-icons {
+	width: 100%;
+	font-size: 4em;
+	/*color: #51CD2F;*/
+	padding: 10px;
+}
+
+.icon-link {
+	color: #51CD2F;
+}
+
+.fa {
+	margin: 13px;
 }
 
 
@@ -236,7 +252,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 869px) {
+@media only screen and (max-width: 1100px) {
   #stash-one {
     display: none;
   }
@@ -244,7 +260,7 @@ h3 {
   	height: 40%;
   }
   h3 {
-  	font-size: 3em;
+  	font-size: 2em;
   }
   #trivul_desktop {
   	height: 25%;
