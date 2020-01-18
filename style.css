@@ -288,6 +288,12 @@ h3 {
   		/*color: white;*/
   		letter-spacing: 1px;
 	}
+	#vinyl-box {
+		margin-left: 0px;
+	}
+	#about {
+		display: block;
+	}
 }
 
 /*
