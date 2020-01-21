@@ -197,6 +197,10 @@ h3 {
 	opacity: 0.8;
 }
 
+.big-image {
+	height: 45%;
+}
+
 .box {
 	/*transform: rotate(10deg);*/
 	height: 100vh;
