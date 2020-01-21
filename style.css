@@ -108,6 +108,10 @@ li a:hover {
 	/*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);*/
 }
 
+.nm-tile {
+	display: block;
+}
+
 .title { 
 	/*text-align: center;*/
 	font-family: var(--main-font);
@@ -182,7 +186,23 @@ h3 {
 	/*max-width: 50%;*/
 	height: 50%;
 	margin: 10px;
+	/*transform: skew(-2deg) rotate(2deg);*/
 	opacity: 0.8;
+}
+
+.project-page-image {
+	/*max-width: 50%;*/
+	height: 80%;
+	margin: 10px;
+	opacity: 0.8;
+}
+
+.box {
+	/*transform: rotate(10deg);*/
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .text-box {
